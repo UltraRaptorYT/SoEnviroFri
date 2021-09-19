@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+iframe {
+  border: 0;
+  width: 50vw;
+  height: 50vh;
+}
+
+.directions-control-instructions,
+.mapboxgl-ctrl-bottom-left,
+.mapboxgl-compact {
+  display: none;
+}
+
+.d-flex {
+  gap: 10px;
+}
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
